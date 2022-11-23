@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Oswald&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+body .atas {
+    background-image: url("../images/bg-dash.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    padding-bottom: 576px;
+    background-size: cover;
+    background-position: center;
+    margin-right: -3px;
+    margin-left: -3px;
+}
+
+/* Navbar */
+li a:hover{
+    border-radius: 6%;
+    text-decoration: underline;
+        text-decoration-color: #DA1884;    
+        text-decoration-thickness: 2px;
+}
+
+.pemb0 {
+    margin-bottom: -20px;
+}
+
+.pemb {
+
+    padding-bottom: -40px;
+}
+
+.contact {
+    font-size: 14px;
+    color: white;
+    padding-right: 1242px;
+}
+
+.school {
+    color: white;
+    font-size: 14px;
+    padding-left: 1210px;
+    display: flex;
+    margin-left: 47px;
+    margin-top: -46px;
+}
+
+ul {
+    display: inline;
+    list-style: none;
+}
+
+.navbar {
+    padding-top: 50px;
+    height: 200px;
+}
+
+.nav1 {
+    font-weight: 400;
+    color: white;
+    font-size: 14px;
+    padding-right: 60px;
+}
+
+.atas1 {
+    margin-right: -15px;
+    margin-left: 50px;
+}
+
+.atas2 {
+    margin-left: 10px;
+    margin-right: -20px;
+}
+
+.atas3 {
+    margin-right: 45px;
+    margin-left: 20px;
+}
+
+.atas4 {
+    margin-left: -90px;
+    margin-right: 85px;
+}
+
+.nav2 {
+    font-weight: 700;
+    padding-right: 60px;
+}
+
+ul li {
+    font-family: 'Montserrat', sans-serif;
+    padding: 31px;
+    display: inline;
+}
+
+.nav2 a {
+    padding-top: 40px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+}
+
+.scrolldown {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    margin-top: -250px;
+    margin-bottom: 250px;
+    /* background-color: #da1818; */
+    width: 100px;
+    padding: 5px;
+    border-radius: 100px;
+    border: 1px solid white;
+    text-align: center;
+    /* margin-left: -10px; */
+}
+
+/* Content */
+
+.logo-om {
+    padding-top: 50px;
+    width: 115px;
+}
+
+.kutip {
+    font-family: 'Playfair Display', serif;
+    color: #DA1884;
+    font-size: 40px;
+}
+
+.kataquotes {
+    margin-top: -15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #470A68;
+}
+
+.youth {
+    font-family: 'Montserrat', sans-serif;
+    color: #DA1884;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 100px;
+}
+
+.garis1 {
+    width: 1286px;
+    height: 1px;
+    background-color: #DDDDDD;
+    margin-bottom: 45px;
+}
+
+.judulberita {
+    font-family: 'Montserrat', sans-serif;
+    color: #470A68;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 45px;
+}
+
+/* .berita-dash {
+    width: 650px;
+    float: left;
+}
+
+.berita-p1 {
+    float: right;
+} */
+
+.berita-coi {
+    width: 1100px;
+    /* border: 2px solid red; */
+    padding: 20px;
+    overflow: hidden;
+    margin-left: 8%;
+}
+
+.berita-coi img {
+    margin-right: 80px;
+    float: left;
+    width: 650px;
+}
+
+.berita-coi p {
+    margin-left: 500px;
+    display: flex;
+    margin: 2px 0 0 0;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    color: #2C2A29;
+}
+
+.berita-coi .selengkapnya {
+    font-weight: 700;
+    margin-bottom: 0px;
+    font-size: 12px;
+    text-decoration: underline;
+        text-decoration-color: #ACD3B7;    
+        text-decoration-thickness: 2px;
+}
+
+.garis2 {
+    width: 1286px;
+    height: 1px;
+    background-color: #DDDDDD;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.judulgaleri {
+    font-family: 'Montserrat', sans-serif;
+    color: #470A68;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.baruditambahkan {
+    font-family: 'Montserrat', sans-serif;
+    color: #DA1884;
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 45px;
+    padding-top: -20px;
+}
+
+.gambarbanyak {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.image1 {
+    background-color: #470A68;
+    width: 285px;
+    height: 500px;
+    border-radius: 5px;
+    float: left;
+    margin: 0px 15px 0px 15px;
+}
+
+.image2 {
+    background-color: #DA1884;
+    width: 285px;
+    height: 500px;
+    border-radius: 5px;
+    float: left;
+    margin: 0px 15px 0px 15px;
+}
+
+.image3 {
+    background-color: #182bda;
+    width: 285px;
+    height: 500px;
+    border-radius: 5px;
+    float: left;
+    margin: 0px 15px 0px 15px;
+}
+
+.image4 {
+    background-color: #da1818;
+    width: 285px;
+    height: 500px;
+    border-radius: 5px;
+    float: left;
+    margin: 0px 15px 0px 15px;
+}
+
+.selengkapnyagaleri {
+    font-weight: 700;
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    display: flex;
+    margin-top: -80px;
+    text-decoration: underline;
+        text-decoration-color: #ACD3B7;    
+        text-decoration-thickness: 2px;
+}
+
+.garis3  {
+    width: 1286px;
+    height: 1px;
+    background-color: #DDDDDD;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.judulmessages {
+    font-family: 'Montserrat', sans-serif;
+    color: #470A68;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.deskmessages {
+    font-family: 'Montserrat', sans-serif;
+    color: #2C2A29;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+input, .ketikcoi, textarea{
+    margin-top: 10px;
+    color: #2C2A29;
+    text-align: center;
+    background-color: #D9D9D9;
+    border: 0px;
+    border-radius: 5px;
+    width: 540px;
+    height: 42px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.submitcoi {
+    margin-top: 16px;
+    width: 163px;
+    height: 25px;
+    background-color: #470A68;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 10px;
+    margin-bottom: 100px;
+}
+
+.footer {
+    background-color: #1C1C1C;
+    height: 110px;
+    width: 100%;
+}
+
+.logo-wk {
+    width: 125px;
+    margin-left: 50px;
+    padding-top: 30px;
+    filter: brightness(100);
+    float: left;
+}
+
+.katakata {
+    float: left;
+    display: flex;
+    width: 300px;
+    filter: brightness(100);
+    margin-top: 5px;
+    margin-left: 355px;
+}
+
+.inputfooter {
+    float: left;
+    display: flex;
+    width: 228px;
+    height: 35px;
+    border-radius: 3px;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    padding-left: 10px;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+.submitbawah {
+    float: left;
+    display: flex;
+    width: 62px;
+    height: 19px;
+    margin-left: 428px;
+    border-radius: 3px;
+    background-color: #6B1997;
+    color: white;
+    font-weight: 600;
+    font-size: 8px;
+    padding-left: 16px;
+}
